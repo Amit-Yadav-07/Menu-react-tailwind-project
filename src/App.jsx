@@ -19,7 +19,7 @@ function App() {
   let [category, setCategory] = useState(categories);
 
   let FilteredItems = (categoryItem) => {
-    console.log(categoryItem);
+    // console.log(categoryItem);
     if (categoryItem === 'all') {
       setItems(menu)
       return
